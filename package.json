@@ -5,7 +5,6 @@
   "description": "This is my solution for the last project from the Udacity front-end course",
   "main": "/src/index.js",
   "scripts": {
-    "test": "mocha",
     "gulp": "gulp"
   },
   "author": "Saif Harbia",
