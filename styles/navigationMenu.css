@@ -1,21 +1,22 @@
 /* TODO: Manually optimize CSS styling. */
 /* Remove unused and unnecessary styling and selectors */
 /* Navigation styling */
-body header {
+header {
   width: 200px;
   width: 100px;
   cursor: pointer;
 }
 
-body {
+header h1,
+.primary_nav_bar ul li {
   text-transform: uppercase;
 }
 
-body {
+.primary_nav_bar ul li {
   margin: 10% 5%;
   border-bottom: 2px solid lightgray;
 }
 
-body:hover {
+.primary_nav_bar ul li:hover {
   border-bottom-color: #45e9f5;
 }
