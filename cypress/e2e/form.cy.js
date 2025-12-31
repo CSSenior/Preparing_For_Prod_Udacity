@@ -37,11 +37,11 @@ describe("form tests", () => {
     cy.get('[data-cy="toggle_form"]').click();
     cy.get('[data-cy="card_form"]').should("exist");
 
-    cy.get('[data-cy="card_form"] input').first().clear().type("CSS");
+    cy.get('[data-cy="card_form"] input').first().clear().type("DOM");
     cy.get('[data-cy="card_form"] input')
       .eq(1)
       .clear()
-      .type("Cascading Style Sheets");
+      .type("represents page elements in memory");
 
     cy.get('[data-cy="card_form"]').find('input[type="submit"').click();
     cy.contains(".term", "CSS").should("be.visible");
