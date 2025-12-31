@@ -44,7 +44,7 @@ describe("form tests", () => {
       .type("represents page elements in memory");
 
     cy.get('[data-cy="card_form"]').find('input[type="submit"').click();
-    cy.contains(".term", "CSS").should("be.visible");
+    cy.contains(".term", "DOM").should("be.visible");
   });
 
   it('Test when the user submits empty strings for "Add Card Form', () => {
