@@ -1,0 +1,29 @@
+{
+  "name": "production_optimization_project",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "This is my solution for the last project from the Udacity front-end course",
+  "main": "/src/index.js",
+  "scripts": {
+    "test": "mocha",
+    "gulp": "gulp"
+  },
+  "author": "Saif Harbia",
+  "license": "MIT",
+  "devDependencies": {
+    "@eslint/js": "^9.39.2",
+    "@types/cypress": "^0.1.6",
+    "cypress": "^15.8.1",
+    "eslint": "^9.39.2",
+    "globals": "^16.5.0",
+    "gulp": "^5.0.1",
+    "gulp-cli": "^3.1.0",
+    "gulp-shell": "^0.8.0",
+    "parcel-bundler": "^1.12.5"
+  },
+  "dependencies": {
+    "chai": "^6.2.2",
+    "mocha": "^11.7.5",
+    "save-dev": "^0.0.1-security"
+  }
+}
