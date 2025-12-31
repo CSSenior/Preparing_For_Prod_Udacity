@@ -7,16 +7,15 @@ body header {
   cursor: pointer;
 }
 
-body header h1,
-nav li {
+body {
   text-transform: uppercase;
 }
 
-body header nav li {
+body {
   margin: 10% 5%;
   border-bottom: 2px solid lightgray;
 }
 
-body header nav li:hover {
+body:hover {
   border-bottom-color: #45e9f5;
 }
