@@ -82,7 +82,7 @@ const renderFlashCards = (set, index = 0) => {
     //Creates a container for out buttons
     const nextAndPrevBtn = document.createElement("div");
     nextAndPrevBtn.append(previousBtn, nextBtn);
-    nextAndPrevBtn.className = "nextAndPrevBtnContainer";
+    nextAndPrevBtn.className = "nextPrevContainer";
 
     //Appends card and buttons to the page container
     container.append(currentCard, nextAndPrevBtn);
