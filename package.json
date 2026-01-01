@@ -6,7 +6,8 @@
   "main": "/src/index.js",
   "scripts": {
     "gulp": "gulp",
-    "cypress": "gulp cypress"
+    "cypress": "gulp cypress",
+    "test": "gulp test "
   },
   "author": "Saif Harbia",
   "license": "MIT",
